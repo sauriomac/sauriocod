@@ -4,7 +4,7 @@ import tw from "tailwind-styled-components"
 
 export const ContainerAbout = tw.div`
     p-12
-    h-screen
+    h-full
     w-full
     flex
     flex-col
@@ -13,7 +13,6 @@ export const ContainerAbout = tw.div`
 `
 
 export const AboutDiv = tw.div`
-    m-5
     h-96
     w-2/3
     bg-indigo-900
@@ -38,9 +37,23 @@ export const TeamDiv = tw.div`
     m-5
     h-96
     w-2/3
-    bg-indigo-900
-    rounded-[20px]
-    shadow-2xl
     flex
     justify-center
+    text-center
+`
+
+export const Title = tw.h1`
+    text-white
+    font-extrabold
+    text-xl
+    m-3
+`
+
+export const Texto = tw.h1`
+    mt-5
+    w-25
+    text-xl 
+    text-white
+    text-center
+
 `

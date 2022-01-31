@@ -27,6 +27,6 @@ export const Texto = tw.h1`
     ml-40
     w-25
     text-2xl 
-    text-gray-400
+    text-gray-200
 
 `

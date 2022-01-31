@@ -30,11 +30,11 @@ export const ButtonContact = tw.button`
     mt-64
     text-white
     g-transparent 
-    hover:bg-gradient-to-r from-indigo-500 via-purple-500 to-orange-400 
+    hover:bg-gradient-to-r from-indigo-500 via-purple-500 to-orange-400
     hover:text-white 
-    hover:border-white 
+    hover:border-white
     py-2
     border 
-    border-orange-500 
-    hover:border-transparent rounded
+    border-orange-500
+    rounded
 `

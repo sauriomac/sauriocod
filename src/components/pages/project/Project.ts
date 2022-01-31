@@ -1,4 +1,3 @@
-import styled from 'styled-components';
 import tw from "tailwind-styled-components"
 
 
@@ -21,4 +20,12 @@ export const ProjectDiv = tw.div`
     shadow-2xl
     flex
     justify-center
+`
+
+export const Title = tw.h1`
+    text-white
+    font-extrabold
+    text-xl
+    text-center
+    m-3
 `

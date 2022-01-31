@@ -1,11 +1,11 @@
 import React from 'react';
-import { ContainerProject, ProjectDiv } from './Project';
+import { ContainerProject, ProjectDiv, Title } from './Project';
 
 const Project = () => {
   return <>
       <ContainerProject>
         <ProjectDiv>
-        project
+        <Title>Project</Title>
         </ProjectDiv>
       </ContainerProject>
   </>
