@@ -5,8 +5,6 @@ import tw from "tailwind-styled-components"
 export const ContainerBanner = tw.div`
     h-screen
     bg-indigo-900
-
-
 `
 
 export const Text = tw.h1`
@@ -19,7 +17,6 @@ export const Text = tw.h1`
     text-transparent 
     bg-clip-text 
     bg-gradient-to-r from-indigo-500 via-purple-500 to-orange-400 animate-gradient-x
-
 `
 
 export const Texto = tw.h1`
@@ -28,5 +25,4 @@ export const Texto = tw.h1`
     w-25
     text-2xl 
     text-gray-200
-
 `
