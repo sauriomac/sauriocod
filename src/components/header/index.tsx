@@ -9,10 +9,10 @@ const Header = () => {
   return (
     <>
       <ContainerHeader>
-        <About/>
-        <Project/>
-        <Academy/>
-        <Contact/>
+        <About />
+        <Project />
+        <Academy />
+        <Contact />
       </ContainerHeader>
     </>
   );

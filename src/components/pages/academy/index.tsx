@@ -1,11 +1,11 @@
 import React from 'react';
-import { AcademyDiv, ContainerAcademy } from './Academy';
+import { AcademyDiv, ContainerAcademy,Title } from './Academy';
 
 const Academy = () => {
   return <>
       <ContainerAcademy>
         <AcademyDiv>
-        ACADEMY
+        <Title>Academy</Title>
         </AcademyDiv>
       </ContainerAcademy>
   </>

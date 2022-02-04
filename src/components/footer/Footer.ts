@@ -15,7 +15,6 @@ export const Text = tw.h1`
     text-transparent 
     bg-clip-text 
     bg-gradient-to-r from-indigo-500 via-purple-500 to-orange-400
-
 `
 export const FooterImg = tw.img`
     h-200

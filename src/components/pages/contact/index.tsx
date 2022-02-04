@@ -1,12 +1,12 @@
 import React from "react";
-import { ButtonContact, ContactDiv, ContainerContact } from "./Contact";
+import { ButtonContact, ContactDiv, ContainerContact, Title } from "./Contact";
 
 const Contact = () => {
   return (
-    <div>
+    <div id="Contact">
       <ContainerContact>
         <ContactDiv>
-          Contact
+          <Title>Contact</Title>
           <ButtonContact>Send</ButtonContact>
         </ContactDiv>
       </ContainerContact>

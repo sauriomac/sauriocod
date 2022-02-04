@@ -38,3 +38,9 @@ export const ButtonContact = tw.button`
     border-orange-500
     rounded
 `
+export const Title = tw.h1`
+    text-white
+    font-extrabold
+    text-xl
+    m-3 
+`

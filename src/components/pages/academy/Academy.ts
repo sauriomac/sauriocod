@@ -22,3 +22,10 @@ export const AcademyDiv = tw.div`
     flex
     justify-center
 `
+
+export const Title = tw.h1`
+    text-white
+    font-extrabold
+    text-xl
+    m-3
+`

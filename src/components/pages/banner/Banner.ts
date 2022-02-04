@@ -5,6 +5,7 @@ import tw from "tailwind-styled-components"
 export const ContainerBanner = tw.div`
     h-screen
     bg-indigo-900
+    pt-20
 `
 
 export const Text = tw.h1`
@@ -25,4 +26,5 @@ export const Texto = tw.h1`
     w-25
     text-2xl 
     text-gray-200
+
 `
