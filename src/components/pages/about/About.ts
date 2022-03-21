@@ -13,24 +13,20 @@ export const ContainerAbout = tw.div`
 `
 
 export const AboutDiv = tw.div`
-    h-96
-    w-2/3
+    h-[27rem]
+    w-[63rem]
     bg-indigo-900
     rounded-[20px]
     shadow-2xl
-    flex
-    justify-between
-    item-center
-    
 `
 
 export const Text = tw.p`
     h-46
-    w-full
-    mt-6
-    text-xl
-    text-left
-    font-extrabold
+    w-[61rem]
+    mt-12
+    text-5xl
+    text-center
+    font-bold
     text-transparent
     bg-clip-text
     bg-gradient-to-r from-indigo-500 via-purple-500 to-orange-400 animate-gradient-x
@@ -48,11 +44,10 @@ export const TeamDiv = tw.div`
 
 export const Title = tw.h1`
     text-white
+    text-center
     font-extrabold
-    text-2xl
-    ml-20
+    text-3xl
     mt-6
-    w-screen
 `
 
 export const Texto = tw.h1`
@@ -61,4 +56,11 @@ export const Texto = tw.h1`
     text-xl
     text-white
     text-center
+`
+export const Dots =tw.p`
+    w-3 
+    h-3 
+    mx-2
+    bg-slate-400
+    rounded-full
 `
