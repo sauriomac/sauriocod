@@ -9,10 +9,10 @@ export const ContainerFooter = tw.div`
 `
 export const Text = tw.h1`
     pt-7
-    text-2xl 
-    font-extrabold 
-    text-transparent 
-    bg-clip-text 
+    text-2xl
+    font-extrabold
+    text-transparent
+    bg-clip-text
     bg-gradient-to-r from-indigo-500 via-purple-500 to-orange-400
 `
 export const FooterImg = tw.img`

@@ -1,4 +1,4 @@
-import React from "react";
+
 import { ContainerFooter, Corporation, FooterImg, Text } from "./Footer";
 import navimg from "../../asset/Logosvg.svg";
 

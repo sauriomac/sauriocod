@@ -1,4 +1,3 @@
-import React from "react";
 import About from "../pages/about/index";
 import Academy from "../pages/academy/index";
 import Contact from "../pages/contact/index";
